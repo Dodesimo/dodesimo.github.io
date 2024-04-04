@@ -1,6 +1,6 @@
 ---
 # Display name
-title: দেবম মন্ডল
+title: Devam Mondal
 
 # Full name (for SEO)
 first_name: Devam 

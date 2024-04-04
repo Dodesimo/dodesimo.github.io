@@ -62,97 +62,45 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Natural Language Processing, Data Science, and Machine Learning Intern
+          company: Stevens Institute of Technology, Center for Complex Systems and Enterprises
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Hoboken, New Jersey
+          date_start: '2023-05-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              * Authored  research paper with Professor Carlo Lipizzi focusing on reducing large language model bias through a novel dataset augmentation algorithm (currently awaiting publication)
+              * Developed two new metrics to assess bias (mb-index, db-index) using Spacy named-entity-recognition, LangChain, Pandas, HuggingFace Transformers + Datasets, and mathematical concepts (cosine similarity and lemma vectorization) with regards to datasets and large language models. 
+              * Produced novel dataset augmentation algorithm using k-means clustering and named entity recognition to debias datasets. 
+              * Conducted literature review with 15+ papers, presenting results on a weekly basis.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Natural Language Processing Intern
+          company: whiz.ai
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: 
+          location: Somerset, New Jersey
+          date_start: '2023-12-01'
+          date_end: '2024-03-31'
+          description: |2-
+            * Developed narrative descriptions of 50+ whiz.ai data summary boards using fine-tuned large language models. 
+            * Addressed large language model input token limitations and with creation and refinement of 5+ Data Intelligence Objects (DIOs), and chunk processing.
+            * Fine-tuned large language models using QLoRA adapters and validated 50+ responses with statistical testing of various metrics (perplexity, GLUE, etc.).
+          
+        - title: Machine Learning + Data Science Intern
+          company: whiz.ai
+          company_url: ''
+          company_logo: 
+          location: Somerset, New Jersey
+          date_start: '2023-05-01'
+          date_end: '2023-09-30'
+          description: |2-
+            * Ran EDAs on three datasets (> 1 GB) using Pandas, Sweetviz, and statistical methods (Spearman rho).
+            * Utilized h2o.ai to train 7+ classification and regression models (stacked ensemble, DNNs, GBMs) on medical datasets.
+            * Carried out feature importance analysis with 50+features through multicollinearity tests (VIF), Gini impurity, and Random Forest Regressors.
+            * Implemented LangChain, OpenAI API, and HuggingFace fine-tuning to create automated EDA tools that reduced data exploration times by 50%.
+
+
     design:
-      columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
       columns: '2'
   - block: portfolio
     id: projects
@@ -171,10 +119,11 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
+        - name: Natural Language Processing
           tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Data Science
+          tag: Data Science
+        - name: Convolutional Neural Networks
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
