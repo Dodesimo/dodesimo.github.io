@@ -29,7 +29,7 @@ url_pdf: https://arxiv.org/pdf/2403.13925.pdf
 url_code: 'https://github.com/Dodesimo/DebiasingLLMS/tree/main/.virtual_documents/code/papercode'
 
 # Featured image
-# To use, add an image named `pfp.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpeg/png` to your page's folder. 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
