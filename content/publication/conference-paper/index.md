@@ -53,7 +53,7 @@ url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_video: 'https://youtube.com'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# To use, add an image named `pfp.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
