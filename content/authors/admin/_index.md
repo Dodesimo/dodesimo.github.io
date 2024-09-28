@@ -35,7 +35,6 @@ education:
   courses:
     - course: BS in Computer Science
       institution: Georgia Institute of Technology
-      year: 2028
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
