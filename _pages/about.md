@@ -7,11 +7,8 @@ subtitle: Computer Science @ Georgia Tech
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -22,8 +19,23 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! My name is Devam, and I'm a student studying computer science at Georgia Tech.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm experienced in **backend and full-stack development, as well as AI engineering.** 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm also curious and interested in **low-latency development and AI infrastructure** 
+
+In terms of industry experience, I have interned at:
+* [**whiz.ai**](https://www.iqvia.com/locations/united-states/solutions/life-sciences/information-solutions/business-intelligence-and-analytics/) (acquired by **IQVIA**), building a system that selects optimal exploratory data analysis algorithms from natural-language queries.
+* [**InPharmD**](https://inpharmd.com/our_story) (**Y Combinator W21**), developing a deep-research literature review algorithm for drug diagnosis used by clinical pharmacists nationwide.
+* [**Cisco**](https://www.cisco.com/site/us/en/products/security/secure-email/index.html), working on the **Email Threat Defense Team** to prototype Google message remediation and productionize bulk Outlook message remediation and reclassification.
+
+This summer, I will be interning at [**Millennium Management**](https://www.mlp.com/) in the **Equities IT** group, working on **latency-critical technology**.
+
+In terms of academia, I have worked with:
+* [**Dr. Carlo Lipizzi**](https://www.stevens.edu/profile/clipizzi), developing dataset-augmentation methods to reduce bias in LLMs and graph-based techniques to identify LLM training data sources.
+* [**Dr. Binfeng Lu**](https://www.hmh-cdi.org/en/research/faculty/binfeng-lu), building RAG-based systems to automate RNA sequencing and differential analysis at the **Center for Discovery and Innovation @ Hackensack Meridian Health**.
+* [**Dr. Patrick Kastner**](https://arch.gatech.edu/people/patrick-kastner), creating simulations to study the impact of gentrification along the Atlanta Beltline.
+* [**Dr. Munmun De Choudhury**](http://www.munmund.net/), developing a production-ready system for adolescent mental health monitoring for use at **Children’s Healthcare of Atlanta**.
+
+As you can see, **I enjoy wearing a bunch of hats.**
