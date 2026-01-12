@@ -30,7 +30,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "projects-the-bioinformagician",
+          title: 'The Bioinformagician',
+          description: "Bioinformatics and RAG",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bioinformagician/";
+            },},{id: "projects-c-transformer-w-inference-endpoint",
+          title: 'C++ Transformer w/ Inference Endpoint',
+          description: "AI Infra and C++",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cpptf/";
+            },},{id: "projects-toffee",
+          title: 'Toffee',
+          description: "Full Stack and AI Engineering",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/toffee/";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
