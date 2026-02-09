@@ -30,7 +30,7 @@ In terms of industry experience, I have interned at:
 * [**InPharmD**](https://inpharmd.com/our_story) (**Y Combinator W21**), developing a deep-research literature review algorithm for drug diagnosis used by clinical pharmacists nationwide.
 * [**Cisco**](https://www.cisco.com/site/us/en/products/security/secure-email/index.html), working on the **Email Threat Defense Team** to prototype Google message remediation and productionize bulk Outlook message remediation and reclassification.
 
-This summer, I will be interning at [**Millennium Management**](https://www.mlp.com/) in the **Equities IT** group, working on **latency-critical technology**.
+This summer, I will be interning at [**Millennium Management**](https://www.mlp.com/) in the **Equities IT** group, working on **latency-critical technology**, and this fall, I'll be interning at [**Amazon Web Services (AWS)**](aws.amazon.com) working on **networking infrastructure**. 
 
 In terms of academia, I have worked with:
 * [**Dr. Carlo Lipizzi**](https://www.stevens.edu/profile/clipizzi), developing dataset-augmentation methods to reduce bias in LLMs and graph-based techniques to identify LLM training data sources.
