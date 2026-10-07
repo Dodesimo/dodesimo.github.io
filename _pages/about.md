@@ -21,7 +21,7 @@ announcements:
 
 Hi! My name is Devam, and I'm a student studying computer science at Georgia Tech, concentrating in **Intelligence** and **Modeling & Simulation.**
 
-Most of my coursework has leaned toward **machine learning theory and computer vision**, and I'm hoping to take natural language processing next. On the simulation side, I'm curious about the hardware that makes simulation efficient — memory sharing, parallelization, and the like.
+Most of my coursework has leaned toward **machine learning theory and computer vision**, and I'm hoping to take natural language processing next. On the simulation side, I'm curious about the hardware that makes simulation efficient, like memory sharing and parallelization.
 
 I'm experienced in **backend and full-stack development, as well as AI engineering.**
 
@@ -45,7 +45,7 @@ In terms of academia, I have worked with:
 
 On campus, I'm involved with:
 
-- [**Grand Challenges**](https://grandchallenges.gatech.edu/), Georgia Tech's honors program where you pitch a solution to a problem you see in the world. My team built a political bias fact checker — a chatbot that pulls the top articles on a query from vetted sources through the Media Bias/Fact Check API and summarizes them, so you see a political situation from every perspective. Georgia is a swing state, and political information here gets skewed.
+- [**Grand Challenges**](https://grandchallenges.gatech.edu/), Georgia Tech's honors program where you pitch a solution to a problem you see in the world. My team built a political bias fact checker, a chatbot that pulls the top articles on a query from vetted sources through the Media Bias/Fact Check API and summarizes them, so you see a political situation from every perspective. Georgia is a swing state, and political information here gets skewed.
 - **Big Data Big Impact**, a project-based club where you build an application over a semester. I worked on **Simpliearn**, an LLM chatbot that summarizes earnings reports and extracts key metrics, backed by a neural network trained on Wall Street Journal articles for entity classification.
 - the **Machine Learning Club**, where we share projects from our internships and get exposure to different applications of ML. I presented my work at InPharmD.
 - the **Karting Club**, because I'm a big F1 fan and watch parties are better than watching alone.

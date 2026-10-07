@@ -7,7 +7,7 @@ category: work
 giscus_comments: false
 ---
 
-I built this because a professor of mine complained about how hard literature review is — specifically, how hard it is to tell whether an idea you have is actually novel.
+I built this because a professor of mine complained about how hard literature review is, and specifically how hard it is to tell whether an idea you have is actually novel.
 
 It's also an extension of my work at **InPharmD**, where I first started thinking about research as a traversal problem rather than a search problem.
 
@@ -21,7 +21,7 @@ In this project, I:
 
 Given an initial query phrase, the tool scrapes a seed set of papers from **OpenAlex**. For each paper, it pulls every reference, scores that reference's relevance against the original paper with **BM25**, and continues the search from the top five.
 
-Every paper encountered goes into a store, with its references kept in an adjacency list that distinguishes between papers the search continued through and papers that were merely cited. That distinction is what makes the final graph useful — you can see not just how papers connect, but which paths the search actually explored and which it pruned.
+Every paper encountered goes into a store, with its references kept in an adjacency list that distinguishes between papers the search continued through and papers that were merely cited. That distinction is what makes the final graph useful. You can see not just how papers connect, but which paths the search actually explored and which it pruned.
 
 ### Concurrency
 

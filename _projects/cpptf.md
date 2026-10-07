@@ -31,7 +31,7 @@ Every piece of the architecture is there for a reason, and writing each one by h
 
 ### Training and inference
 
-Training examples came from sliding windows over the token ID sequence, where the target is the input shifted forward by one token — plain autoregressive language modeling. Each step clears gradients, runs a forward pass, applies softmax, computes cross-entropy loss against the target, backpropagates, and updates parameters with **SGD**. Every operation I wrote needed a differentiable counterpart, which was the hardest and most instructive part.
+Training examples came from sliding windows over the token ID sequence, where the target is the input shifted forward by one token, which is just plain autoregressive language modeling. Each step clears gradients, runs a forward pass, applies softmax, computes cross-entropy loss against the target, backpropagates, and updates parameters with **SGD**. Every operation I wrote needed a differentiable counterpart, which was the hardest and most instructive part.
 
 Serialization saves the model configuration, the Eigen weight matrices, and the tokenizer vocabulary, so inference sees the exact same token-to-ID mapping as training. The **Crow** server loads all three on startup and exposes a POST endpoint that takes a prompt and a token limit, greedily samples the highest-probability token, appends it to the context, and repeats until it hits the limit or an end token.
 
