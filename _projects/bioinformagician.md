@@ -3,7 +3,7 @@ layout: page
 title: The Bioinformagician
 description: Bioinformatics and RAG
 img: assets/img/bio.png
-importance: 2
+importance: 4
 category: work
 giscus_comments: false
 ---
