@@ -5,7 +5,7 @@
     "label": "Computer Science Student",
     "email": "devammondal123@gmail.com",
     "phone": "908-449-7970",
-    "url": "linkedin.com/in/dmmo",
+    "url": "https://linkedin.com/in/dmmo",
     "summary": "Aspiring engineer interested in low-level systems and AI (LLMs).",
     "location": {
       "city": "Edison",
@@ -16,7 +16,7 @@
       {
         "network": "LinkedIn",
         "username": "dmmo",
-        "url": "https://linkedin.com/in/devammondal"
+        "url": "https://linkedin.com/in/dmmo"
       },
       {
         "network": "GitHub",
@@ -28,24 +28,28 @@
   "work": [
     {
       "name": "Amazon Web Services (AWS)",
-      "position": "Incoming Software Development Engineer Intern, Fall 2026",
+      "position": "Software Development Engineer Intern",
       "location": "Seattle, WA",
-      "startDate": "2026-01",
+      "startDate": "2026-09",
       "endDate": "",
-      "summary": "",
+      "summary": "Networking infrastructure for AWS data centers.",
       "highlights": [
-        "Incoming engineer on a team focused on configuring and maintaining networking infrastructure in data centers."
+        "Prototyping an MCP server enabling low-latency, natural-language queries across 1M+ DNS and DHCP resolution log records, streamlining on-call network troubleshooting",
+        "Shipped AWS Lambdas to convert JSON logs to Parquet and register schemas, improving Athena query speed by 10x"
       ]
     },
     {
-      "name": "Millennium Management",
-      "position": "Incoming Software Engineer Intern, Summer 2026",
+      "name": "Millennium",
+      "position": "Software Engineer Intern",
       "location": "Miami, FL",
-      "startDate": "2026-01",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2026-06",
+      "endDate": "2026-08",
+      "summary": "Latency-critical trading infrastructure in C++.",
       "highlights": [
-        "Incoming C++ engineer on a latency-critical trading team building real-time market-data ingestion systems."
+        "Engineered a C++ gRPC service to serialize and stream 50+ Apache Arrow Level 1 order book snapshots/sec over TCP into downstream ingestion pipelines, accelerating strategy backtesting on sparse market data",
+        "Optimized Apache Arrow table-processing throughput by 5x using multithreaded workload partitioning and semaphore-based synchronization",
+        "Reduced string lookup latency by 20% by replacing unordered maps with thread-local vectors for better cache locality",
+        "Enabled feature engineering at the single-tick level, boosting trade granularity for strategies reacting to cent-level price movements"
       ]
     },
     {
@@ -53,12 +57,12 @@
       "position": "Software Engineer Intern",
       "location": "Atlanta, GA",
       "startDate": "2025-05",
-      "endDate": "",
-      "summary": "",
+      "endDate": "2026-04",
+      "summary": "Secure Email Threat Defense.",
       "highlights": [
-        "Prototyped and deployed 4 Go API endpoints with Terraform and Jenkins to explore Gmail message remediation for the Secure Email Threat Defense team, expanding product reach",
+        "Prototyped and deployed 4 Python API endpoints with Terraform and Jenkins to explore Gmail message remediation for the Secure Email Threat Defense team, expanding product reach",
         "Implemented a bulk remediation and reclassification pipeline using two AWS SQS queues and AWS Lambda workers, deploying to beta production and empowering administrators to process 5,000+ emails concurrently",
-        "Engineered a time-throttle mechanism for bulk remediation requests using a AWS DynamoDB audit table, increasing backend reliability and reducing system load spikes by 15%",
+        "Engineered a time-throttle mechanism for bulk remediation requests using an AWS DynamoDB audit table, increasing backend reliability and reducing system load spikes by 15%",
         "Integrated 5 LLM engines to increase spam classification accuracy, improving remediation efficiency"
       ]
     },
@@ -70,8 +74,10 @@
       "endDate": "2025-04",
       "summary": "",
       "highlights": [
-        "Refactored two web-scraping utility APIs using FastAPI and SERP, reducing execution time by 30% to 19 seconds while considering 50+ online vetted sources",
         "Designed a novel deep-research agentic workflow with TF-IDF document search using OpenRouter, MongoDB, and AWS EC2, generating 20+ page drug reports for pharmacists through LLMs and cutting diagnosis times by 80%",
+        "Enhanced breadth-first literature traversal with a priority queue that ranks papers by TF-IDF relevance against the seed abstract, with a threshold that decays across layers, after shadowing clinical pharmacists to learn how they actually search",
+        "Deployed to production and used by 300 hospitals nationwide, freeing pharmacists to spend more time with patients",
+        "Refactored two web-scraping utility APIs using FastAPI and SERP, reducing execution time by 30% to 19 seconds while considering 50+ online vetted sources",
         "Developed a custom reverse-search algorithm mapping patient conditions to appropriate drug dosages, improving deep research result validation"
       ]
     },
@@ -92,11 +98,12 @@
     {
       "institution": "Georgia Institute of Technology",
       "url": "https://www.cc.gatech.edu/",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science",
+      "area": "Concentrations: Intelligence + Modeling and Simulation | GPA: 3.94",
+      "studyType": "Bachelor of Science in Computer Science",
       "startDate": "2024-08",
-      "endDate": "2027-05",
-      "score": "3.93",
+      "endDate": "2028-05",
+      "location": "Atlanta, GA",
+      "score": "3.94",
       "courses": [
         "Data Structures & Algorithms",
         "Objects & Design",
@@ -108,84 +115,60 @@
       ]
     }
   ],
-  "skills": [
+  "publications": [
     {
-      "name": "Languages & Developer Tools",
-      "level": "",
-      "keywords": [
-        "Python",
-        "Java",
-        "Go",
-        "C++",
-        "C",
-        "JavaScript",
-        "Git",
-        "Docker",
-        "Linux",
-        "Vercel",
-        "Terraform"
-      ]
+      "name": "Mitigating Large Language Model Bias: Automated Dataset Augmentation and Prejudice Quantification",
+      "publisher": "Computers (MDPI), 13(6), 141",
+      "releaseDate": "2024",
+      "url": "https://www.mdpi.com/2073-431X/13/6/141",
+      "summary": "With Carlo Lipizzi."
     },
     {
-      "name": "Frameworks & Libraries",
-      "level": "",
-      "keywords": [
-        "Flask",
-        "FastAPI",
-        "Django",
-        "React",
-        "Node.js",
-        "Express.js",
-        "OpenCV",
-        "LangChain",
-        "HuggingFace"
-      ]
+      "name": "SeqMate: A Novel Large Language Model Pipeline for Automating RNA Sequencing",
+      "publisher": "arXiv preprint 2407.03381",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2407.03381",
+      "summary": "With Atharva Inamdar."
     },
     {
-      "name": "Databases & Cloud Platforms",
-      "level": "",
-      "keywords": [
-        "MongoDB",
-        "SQL",
-        "Firebase",
-        "AWS EC2",
-        "AWS SageMaker",
-        "AWS S3",
-        "AWS SQS",
-        "Google Cloud"
-      ]
-    },
-    {
-      "name": "Concepts",
-      "level": "",
-      "keywords": [
-        "Agile",
-        "REST APIs",
-        "Databases",
-        "LLMs + RAG",
-        "Distributed Systems",
-        "Information Retrieval",
-        "ML (PyTorch)"
-      ]
+      "name": "LLMs Plagiarize: Ensuring Responsible Sourcing of Large Language Model Training Data Through Knowledge Graph Comparison",
+      "publisher": "arXiv preprint 2407.02659",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2407.02659",
+      "summary": "With Carlo Lipizzi."
     }
   ],
   "projects": [
     {
       "name": "C++ Transformer w/ Inference Endpoint",
       "description": "",
+      "summary": "C++, Eigen, Crow",
       "highlights": [
         "Implemented a Transformer language model from scratch in C++, including single-head attention, cross-entropy loss, and layer normalization, using Eigen matrix operations",
         "Built a custom word-level tokenizer that constructs vocabularies of 5,000+ tokens from 10,000 lines of raw text using std::vector and std::unordered_map",
         "Designed a binary model serialization pipeline and engineered a REST inference endpoint with Crow, enabling real-time text generation from saved model weights"
       ],
-      "keywords": [
-        "C++",
-        "Eigen",
-        "Crow"
-      ],
+      "keywords": ["C++", "Eigen", "Crow"],
       "startDate": "",
       "endDate": "",
-      "url": "",
+      "url": "https://github.com/Dodesimo/CPPTransformer",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "Contacts",
+      "description": "",
+      "summary": "Python, FastAPI, OpenAlex, MongoDB, BM25, Vercel",
+      "highlights": [
+        "Built a FastAPI research discovery tool that generates topic knowledge graphs from academic search terms by traversing works, references, and related publications across journals through the OpenAlex API",
+        "Engineered a multithreaded graph expansion pipeline with concurrent search requests, enabling discovery across 400+ papers per query while ranking candidates with BM25 relevance scoring",
+        "Visualized the resulting graph in React, with nodes exposing authors, abstracts, and references disambiguated by whether the search continued through them"
+      ],
+      "keywords": ["Python", "FastAPI", "OpenAlex", "MongoDB", "BM25", "Vercel"],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/Dodesimo/contacts",
       "roles": [],
       "entity": "",
       "type": ""
@@ -193,37 +176,76 @@
     {
       "name": "Toffee",
       "description": "",
+      "summary": "React, FastAPI, Firebase, Firestore, OpenRouter, Vercel",
       "highlights": [
         "Developed a full-stack AI study tool with React and FastAPI that converts documents into quizzes and flashcards",
         "Designed five API endpoints to convert PDFs, plaintext, and YouTube transcripts into JSON-formatted quiz questions using Google Gemini Flash and Regex, deployed on Vercel",
-        "Used Firestore to save user sessions and 100+ generated flashcards across MCQ, T/F, FITB quiz formats"
+        "Used Firestore to save user sessions and 100+ generated flashcards across MCQ, T/F, FITB quiz formats",
+        "Grounded every generated question with a hallucination-checking model that must cite a source line number, discarding anything it cannot locate"
       ],
-      "keywords": [
-        "React",
-        "FastAPI",
-        "Firebase",
-        "Firestore",
-        "OpenRouter",
-        "Vercel"
-      ],
+      "keywords": ["React", "FastAPI", "Firebase", "Firestore", "OpenRouter", "Vercel"],
       "startDate": "",
       "endDate": "",
-      "url": "",
+      "url": "https://github.com/toffeedevs/toffee",
       "roles": [],
       "entity": "",
       "type": ""
     }
   ],
+  "skills": [
+    {
+      "name": "Languages & Developer Tools",
+      "level": "",
+      "keywords": ["C++", "Python", "Java", "C", "JavaScript", "Git", "Docker", "Linux", "Vercel", "Terraform"]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "level": "",
+      "keywords": ["Flask", "FastAPI", "Django", "React", "Node.js", "Express.js", "OpenCV", "LangChain", "HuggingFace"]
+    },
+    {
+      "name": "Databases & Cloud Platforms",
+      "level": "",
+      "keywords": ["MongoDB", "SQL", "Firebase", "AWS EC2", "AWS SageMaker", "AWS S3", "AWS SQS", "Google Cloud"]
+    },
+    {
+      "name": "Concepts",
+      "level": "",
+      "keywords": ["Agile", "REST APIs", "Databases", "LLMs + RAG", "Distributed Systems", "Information Retrieval", "Concurrency"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Grand Challenges (Georgia Tech Honors Program)",
+      "keywords": [
+        "Built a political bias fact checker with a team of four",
+        "Chatbot gathers the top 20 articles per query from vetted sources through the Media Bias/Fact Check API and summarizes them across perspectives"
+      ]
+    },
+    {
+      "name": "Big Data Big Impact",
+      "keywords": [
+        "Built Simpliearn, an LLM chatbot that summarizes earnings reports and extracts key metrics",
+        "Trained a neural network on Wall Street Journal articles for entity classification"
+      ]
+    },
+    {
+      "name": "Machine Learning Club",
+      "keywords": ["Share internship projects and explore applications of ML", "Presented my work at InPharmD"]
+    },
+    {
+      "name": "Karting Club",
+      "keywords": ["Big F1 fan", "Race watch parties and go karting"]
+    }
+  ],
   "certificates": [],
   "awards": [],
-  "publications": [],
   "volunteer": [],
   "languages": [],
-  "interests": [],
   "references": [],
   "meta": {
     "canonical": "",
     "version": "v1.0.0",
-    "lastModified": "2026-01-11T00:00:00-05:00"
+    "lastModified": "2026-10-06T00:00:00-04:00"
   }
 }

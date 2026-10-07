@@ -1,7 +1,7 @@
 ---
 layout: page
 title: C++ Transformer w/ Inference Endpoint
-description: AI Infra and C++  
+description: AI Infra and C++
 img: assets/img/attention.png
 importance: 1
 category: work
@@ -10,7 +10,7 @@ related_publications: true
 
 This was a project I did in order to futher solidify my C++ skills and gain greater intuition into the theory behind LLMs.
 
-I started it after reading *Attention Is All You Need*, because I wanted to know what **PyTorch** and **TensorFlow** abstract away.
+I started it after reading _Attention Is All You Need_, because I wanted to know what **PyTorch** and **TensorFlow** abstract away.
 
 End to end, it takes raw Shakespeare sonnets, learns to predict the next token, and serves generated text over a REST endpoint. In this project, I:
 

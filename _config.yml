@@ -4,12 +4,12 @@
 
 title: Devam Mondal # the website title (if blank, full name will be used instead)
 first_name: Devam
-middle_name: 
+middle_name:
 last_name: Mondal
 contact_note: >
   linkedin.com/in/dmmo | github.com/Dodesimo | devammondal123@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Devam Mondal's personal website. 
+  Devam Mondal's personal website.
 footer_text: >
 keywords: engineer, researcher, baller # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

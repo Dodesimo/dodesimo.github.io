@@ -19,8 +19,8 @@ My friends also faced this issue, so I built Toffee.
 Toffee has AI at its core. You upload a document, a YouTube video, or even an Anki deck, and generate unique MCQ or true/false questions on demand — setting the number of questions, the difficulty, and example questions you want yours to look like. Every run gives you a fresh set shaped around what you actually need, and your past sets stick around.
 
 In this project, I:
- 
- - Developed a full-stack AI study tool with **React** and **FastAPI** that converts documents into quizzes and flashcards
+
+- Developed a full-stack AI study tool with **React** and **FastAPI** that converts documents into quizzes and flashcards
 - Designed five API endpoints to convert PDFs, plaintext, and YouTube transcripts into JSON-formatted quiz questions using **Google Gemini Flash** and **regex**, deployed on **Vercel**
 - Used **Firestore** to save user sessions and **100+** generated flashcards across MCQ, T/F, and FITB quiz formats
 
