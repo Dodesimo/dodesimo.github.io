@@ -149,8 +149,6 @@
         "Designed a binary model serialization pipeline and engineered a REST inference endpoint with Crow, enabling real-time text generation from saved model weights"
       ],
       "keywords": ["C++", "Eigen", "Crow"],
-      "startDate": "",
-      "endDate": "",
       "url": "https://github.com/Dodesimo/CPPTransformer",
       "roles": [],
       "entity": "",
@@ -166,8 +164,6 @@
         "Visualized the resulting graph in React, with nodes exposing authors, abstracts, and references disambiguated by whether the search continued through them"
       ],
       "keywords": ["Python", "FastAPI", "OpenAlex", "MongoDB", "BM25", "Vercel"],
-      "startDate": "",
-      "endDate": "",
       "url": "https://github.com/Dodesimo/contacts",
       "roles": [],
       "entity": "",
@@ -184,8 +180,6 @@
         "Grounded every generated question with a hallucination-checking model that must cite a source line number, discarding anything it cannot locate"
       ],
       "keywords": ["React", "FastAPI", "Firebase", "Firestore", "OpenRouter", "Vercel"],
-      "startDate": "",
-      "endDate": "",
       "url": "https://github.com/toffeedevs/toffee",
       "roles": [],
       "entity": "",
