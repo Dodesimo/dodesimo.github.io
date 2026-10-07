@@ -35,6 +35,11 @@ ninja.data = [{
           description: "Bioinformatics and RAG",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bioinformagician/";
+            },},{id: "projects-contacts",
+          title: 'Contacts',
+          description: "Information Retrieval and Concurrency",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/contacts/";
             },},{id: "projects-c-transformer-w-inference-endpoint",
           title: 'C++ Transformer w/ Inference Endpoint',
           description: "AI Infra and C++",
